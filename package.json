@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Keeps chromium browsers running in the background.",
   "scripts": {
-    "package": "node ./scripts/prepare.js&&crx pack ./dist -o ./dist/RBG.crx"
+    "package:crx": "node ./scripts/prepare.js&&crx pack ./dist -o ./dist/RBBG.crx",
+    "package:zip": "node ./scripts/prepare.js&&crx pack ./dist --zip-output ./dist/RBBG.zip"
   },
   "author": "Amr Bashir",
   "license": "MIT",

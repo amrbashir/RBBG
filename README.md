@@ -11,7 +11,7 @@ Install [NodeJs](https://nodejs.org/en/) and [pnpm](https://pnpm.js.org).
 
 2.
     ```
-    pnpm package
+    pnpm package:crx  or pnpm package:zip
     ```
 
 ## License
