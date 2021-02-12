@@ -1,0 +1,7 @@
+{
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "version": "{{version}}",
+  "manifest_version": 3,
+  "permissions": ["background"]
+}

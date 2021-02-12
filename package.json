@@ -1,0 +1,15 @@
+{
+  "name": "rbbg",
+  "version": "0.1.0",
+  "description": "Keeps chromium browsers running in the background.",
+  "scripts": {
+    "package": "node ./scripts/prepare.js&&crx pack ./dist -o ./dist/RBG.crx"
+  },
+  "author": "Amr Bashir",
+  "license": "MIT",
+  "repository": "https://github.com/amrbashir/RBBG",
+  "private": true,
+  "dependencies": {
+    "crx": "^5.0.1"
+  }
+}
