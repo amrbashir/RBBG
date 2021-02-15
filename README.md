@@ -1,5 +1,5 @@
 # RBBG (Run Browser in the BackGround)
-Browser extension to keep chromium browsers running in the background.
+Browser extension to keep chromium browsers running in the background. It is simply a `manifest.json` with `background` permission.
 
 ## Download
 You can find zip and crx downloads [here](https://github.com/amrbashir/RBBG/releases)
